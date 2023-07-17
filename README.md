@@ -7,7 +7,7 @@ e-mail: kkkkibj@163.com
 npm run test
 ```
 
-# buid
+# build
 ```bash
 npm run build
 ```
