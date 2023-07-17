@@ -1,0 +1,40 @@
+{
+  "name": "bmapgl",
+  "version": "1.0.0",
+  "description": "ECharts plugin for baidu map GL version",
+  "main": "bmap.ts",
+  "type": "module",
+  "scripts": {
+    "test":"vite --host",
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redrockhorse/bmapgl.git"
+  },
+  "keywords": [
+    "echarts",
+    "bmap",
+    "gl",
+    "baidu",
+    "map"
+  ],
+  "author": "kkkkibj@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redrockhorse/bmapgl/issues"
+  },
+  "homepage": "https://github.com/redrockhorse/bmapgl#readme",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "rollup": "^3.26.2",
+    "rollup-plugin-obfuscator": "^1.0.3",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.4"
+  },
+  "dependencies": {
+    "echarts": "^4.9.0"
+  }
+}
